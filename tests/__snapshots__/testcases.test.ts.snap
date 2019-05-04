@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testcases works for testcase "dead-file" 1`] = `
+Object {
+  "files": Array [
+    Object {
+      "deadExports": Array [],
+      "fileName": "a.js",
+    },
+  ],
+}
+`;
+
+exports[`testcases works for testcase "dts" 1`] = `
+Object {
+  "files": Array [
+    Object {
+      "deadExports": Array [
+        "C",
+      ],
+      "fileName": "common.ts",
+    },
+  ],
+}
+`;
+
+exports[`testcases works for testcase "export-statements" 1`] = `
+Object {
+  "files": Array [
+    Object {
+      "deadExports": Array [
+        "b",
+      ],
+      "fileName": "a.js",
+    },
+  ],
+}
+`;
+
+exports[`testcases works for testcase "external" 1`] = `
+Object {
+  "files": Array [],
+}
+`;
+
+exports[`testcases works for testcase "multi-entry" 1`] = `
+Object {
+  "files": Array [
+    Object {
+      "deadExports": Array [
+        "c",
+      ],
+      "fileName": "common.js",
+    },
+  ],
+}
+`;
+
+exports[`testcases works for testcase "namespace-exports" 1`] = `
+Object {
+  "files": Array [
+    Object {
+      "deadExports": Array [
+        "b",
+      ],
+      "fileName": "namespace.js",
+    },
+    Object {
+      "deadExports": Array [
+        "ns",
+      ],
+      "fileName": "reexport.js",
+    },
+  ],
+}
+`;
+
+exports[`testcases works for testcase "non-exported" 1`] = `
+Object {
+  "files": Array [
+    Object {
+      "deadExports": Array [
+        "b",
+      ],
+      "fileName": "a.js",
+    },
+  ],
+}
+`;
